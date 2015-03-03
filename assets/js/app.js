@@ -1,5 +1,3 @@
 jQuery(document).ready(function($) {
-
-	$(".content").fitVids();
-
+	// $(".content").fitVids();
 }(jQuery));
