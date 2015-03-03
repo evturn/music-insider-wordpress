@@ -18,7 +18,7 @@
 		</header>
 		<section class="post-excerpt">
 		<br>
-		<img src="wp-content/themes/music-insider/assets/images/preview1.jpg" alt="" /> <?php the_content(); ?>
+		<?php the_content(); ?>
 		</section>
 		<span class="post-meta"> on article</span>
 	</article>
