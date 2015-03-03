@@ -3,9 +3,7 @@
 <head>
     
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
     <title><?php wp_title(); ?></title>
     <meta name="description" content="Sup br0z" />
     <meta name="HandheldFriendly" content="True" />
@@ -14,6 +12,7 @@
 
     
     <?php wp_head(); ?>
+
 </head>
 <body style ="background-image:url('wp-content/themes/music-insider/assets/images/bg.jpg');" >
     
@@ -30,27 +29,3 @@
     </div>
 </header>
 <br/>
-
-
-
-<main class="content" role="main">
-
-    
-    
-
-    <article class="post tag-getting-started">
-                                 <img class='img-left' src='wp-content/themes/music-insider/assets/images/useravatar.jpg' alt='authorimage'>
-
-            <br/>
-        <header class="post-header">
-                  <h2 class="post-title"><a href=#></a></h2>
-<br/>
-
-   
-                  
-           <div class="date-box">
-                 <span class="date-outer">
-                 <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
-                 </span>
-            </div>
-        </header>
