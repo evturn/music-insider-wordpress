@@ -10,3 +10,18 @@
 
         </div>
     </footer>
+
+   
+
+
+
+    
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+    <script src="assets/js/pace.js"></script>
+
+
+
+
+</body>
+</html>
