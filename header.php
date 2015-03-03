@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     
-    <title>Music Insider</title>
+    <title><?php wp_title(); ?></title>
     <meta name="description" content="Sup br0z" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -14,14 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
-
-
-    
-<link rel="alternate" type="application/rss+xml" title="Minimal Theme" href="/rss/">
-<link rel="canonical" href="http://minimalv2-ghost1235.rhcloud.com/" />
-
+    <?php wp_head(); ?>
 </head>
 <body style ="background-image:url('assets/images/bg.jpg');" >
     
@@ -35,7 +28,7 @@
         <div id="site-head-content" class="inner">
             
 
-            <h1 class="blog-title">Minimal Theme</h1>
+            <h1 class="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
             <h2 class="blog-description">Sup br0z
 </h2>
         </div>
